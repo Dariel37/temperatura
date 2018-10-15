@@ -62,18 +62,9 @@ for(c=-270;c<=200;c +=10)
     text += "<tr id=mytr bgcolor=green ><td>" + c + "</td><td>"+kelvin(c)+"</td><td>"+fahrenheit(c)+"</td><td>"+rankine(c)+"</td><td>"+reaumur(c)+"</td><td>"+estadodelagua(c)+"</td></tr>";
      
    
-    
-    
-
-
-       
-	   else 
-        { text += "<tr><td>" + c + "</td><td>"+kelvin(c)+"</td><td>"+fahrenheit(c)+"</td><td>"+rankine(c)+"</td><td>"+reaumur(c)+"</td><td>"+estadodelagua(c)+"</td></tr>";
-         
-    }
-    
-   
-         
+     else 
+     text += "<tr><td>" + c + "</td><td>"+kelvin(c)+"</td><td>"+fahrenheit(c)+"</td><td>"+rankine(c)+"</td><td>"+reaumur(c)+"</td><td>"+estadodelagua(c)+"</td></tr>";
+          
 }	
 document.getElementById("demo").innerHTML = text +"</table>";
 </script>
